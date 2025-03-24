@@ -14,5 +14,8 @@
       "default": "./dist/index.esm.js"
     }
   },
-  "dependencies": {}
+  "dependencies": {},
+  "scripts": {
+    "build": "rolldown --config rolldown.config.ts"
+  }
 }
